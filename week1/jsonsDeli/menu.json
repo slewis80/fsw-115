@@ -1,0 +1,61 @@
+{
+    "appetizers": [{
+            "name": "Pumpkin Muffin",
+            "ingredients": ["pumpkin", "sugar", "flour"],
+            "description": "Pumpkiny goodness!"
+        },
+        {
+            "name": "Cinnamon Bagel",
+            "ingredients": ["cream cheese", "cinnamon", "flour"],
+            "description": "The best cinnamon bagel anywhere!"
+        }
+    ],
+    "cold sandwiches": [{
+            "name": "Smoked Turkey",
+            "ingredients": ["smoked turkey", "mayo", "sourdough bread", "sprouts"],
+            "description": "A delightfully light sandwich."
+        },
+        {
+            "name": "Classic Ham & Cheese",
+            "ingredients": ["ham", "american cheese", "mayo", "sourdough bread"],
+            "description": "The classic American ham sandwich."
+        }
+
+    ],
+    "hot sandwiches": [{
+            "name": "Chicken Club",
+            "ingredients": ["grilled chicken", "bacon", "mayo", "lettuce", "tomato"],
+            "description": "Chicken and bacon... how can you go wrong?!"
+        },
+        {
+            "name": "Philly cheese steak",
+            "ingredients": ["steak strips", "mozzarella", "onions", "bell peppers"],
+            "description": "Oooey, gooey goodness!"
+        }
+
+    ],
+    "desserts": [{
+            "name": "Cheesecake",
+            "ingredients": ["cream cheese", "sugar", "graham cracker crust"],
+            "description": "Classic New York style cheesecake."
+        },
+        {
+            "name": "Ice Cream Cone",
+            "ingredients": ["ice cream", "waffle cone", "choice of toppings"],
+            "description": "I scream, you scream, we all scream for ice cream!"
+        }
+
+    ],
+    "drinks": [{
+            "name": "Cold Brew Coffee",
+            "ingredients": ["coffee", "cream", "sugar", "optional flavor syrup"],
+            "description": "Deliciously refreshing pick-me-up."
+        },
+        {
+            "name": "Iced Tea",
+            "ingredients": ["black tea", "sugar", "optional flavor syrup"],
+            "description": "Iced tea at its best."
+        }
+
+    ]
+}
