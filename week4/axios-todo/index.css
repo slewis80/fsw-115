@@ -1,0 +1,48 @@
+body {
+    box-sizing: border-box;
+}
+h1 {
+    color: firebrick;
+    font-weight: bold;
+    text-align: center;
+}
+input[type=text],
+input[type=number] {
+    padding: 3px;
+    margin: 3px 20px;
+}
+hr {
+    margin: 15px 0;
+}
+#myUL {
+    margin: 5px 20px;
+}
+ul li:nth-child(odd) {
+    background: #a1bb7f52;
+}
+ul li:hover {
+    background: #ddd;
+}
+li {
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+}
+#title {
+    color: firebrick;
+    font-weight: bold;
+}
+#price {
+    font-weight: bold;
+}
+img {
+    max-height: 200px;
+    max-width: 300px;
+}
+#checkbox {
+    float: left;
+}
+#deleteButton {
+    margin: 5px;
+    float: right;
+}
