@@ -1,0 +1,44 @@
+header {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+a {
+    padding: 10px;
+    margin: 0px 20px;
+    text-decoration: none;
+    background-color: olive;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+a:hover {
+    box-shadow: 3px 3px 10px black;
+}
+h1 {
+    text-align: center;
+    color: firebrick;
+    font-weight: bold;
+}
+button {
+    padding: 5px;
+    margin: 10px 20px;
+    float: right;
+}
+#jokeData {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+#swapiData {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 20px;
+    line-height: 1.5;
+    text-align: left;
+}
