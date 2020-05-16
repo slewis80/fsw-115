@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h1 {
+    color: firebrick;
+    text-align: center;
+}
+
+.listItem {
+    border: 3px solid firebrick;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 750px) {
+    #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .listItem {
+        width: 65%;
+    }
+    .listItem:hover {
+        box-shadow: 0px 0px 25px firebrick;
+    }
+}
