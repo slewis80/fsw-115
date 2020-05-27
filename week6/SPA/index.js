@@ -29,12 +29,8 @@ async function listPerson(response) {
         const vehicles = response.data.results[i].vehicles
         const starships = response.data.results[i].starships
 
-        // console.log(vehicles)
-
         h4.innerHTML = `Homeworld: ${homeworld.data.name}
         <br>Species: ${species.data.name}`
-        // <br>Vehicles: ${vehicles.data.name}
-        // <br>Starships: ${starships.data.name}`
 
         listVehicles(vehicles, listItem)
         listStarships(starships, listItem)

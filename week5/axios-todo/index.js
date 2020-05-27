@@ -72,7 +72,7 @@ function listTodos(todoList) {
             <br>
             <img src="${todoList[i].imgUrl}"/>
             <br>`
-        listArea.appendChild(listItem)         
+        listArea.insertBefore(listItem, listArea.firstChild)         
         
         if (listItem.completed == "true") {
             listItem.checked = true

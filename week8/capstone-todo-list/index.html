@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <title>Axios Todo List</title>
+</head>
+<body>
+    <div id="root">
+        <header>
+            <h1>To-Do List</h1>
+            <form name="todoForm" id="todoForm" autocomplete="off">
+                <input name="title" id="inputTitle" 
+                    type="text" placeholder="Title" />
+                <input name="description" id="inputDescription" 
+                    type="text" placeholder="Description"/>
+                <button name="submit" id="submitBtn">Submit</button>
+            </form>
+        </header>
+    </div>
+
+    <div id="todoList">
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

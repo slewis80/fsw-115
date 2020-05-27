@@ -1,0 +1,95 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+}
+header {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(166, 201, 201);
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+h1 {
+    font-weight: bold;
+}
+#todoForm {
+    margin: 10px;
+}
+input[type=text] {
+    padding: 5px;
+    width: 70%;
+}
+#submitBtn {
+    width: 75px;
+    padding: 5px 15px;
+    float: right;
+}
+hr {
+    margin: 15px 0;
+}
+.editInputs {
+    display: none;
+}
+.editInputButton {
+    display: none;
+}
+#todoList {
+    margin-top: 100px;
+}
+.listItem:nth-child(odd) {
+    background: rgb(202, 230, 230);
+}
+.listItem:hover {
+    background: rgb(166, 201, 201);
+}
+.listItem {
+    padding: 5px;
+    border: 2px dotted rgb(166, 201, 201);
+    border-top: 0px;
+    list-style: none;
+    text-align: center;
+}
+.title {
+    color: firebrick;
+    font-weight: bold;
+}
+.description {
+    color: black;
+    font-weight: normal;
+}
+#price {
+    font-weight: bold;
+}
+img {
+    max-width: 80%;
+    max-height: 250px;
+}
+input[type=checkbox] {
+    float: left;
+    height: 25px;
+    width: 25px;
+}
+.deleteButton {
+    margin: 5px;
+    float: right;
+    height: 25px;
+    width: 25px;
+    color: firebrick;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 750px) {
+    #todoList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .listItem {
+        width: 50%;
+    }
+}
